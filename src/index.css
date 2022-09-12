@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  color: var(--primaryTextColor);
+  color: #212121;
   padding-top: 30px;
   padding-bottom: 30px;
 }
