@@ -4,18 +4,32 @@
 }
 .type {
   width: 30%;
-  text-align: start;
+  text-align: center;
 }
 .amount {
   width: 50%;
-  text-align: start;
+  text-align: center;
 }
 .currency {
   width: 20%;
-  text-align: start;
+  text-align: center;
 }
 table,
 th,
 td {
   border: 1px solid;
+  border-collapse: collapse;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
+  border: 3px solid rgb(9, 237, 112);
+}
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
 }
