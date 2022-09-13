@@ -3,6 +3,7 @@ import Profile from 'components/Profile/Profile';
 import Statistics from 'components/Statistics/Statistics';
 import FriendList from 'components/FriendList/FriendList';
 import TransactionHistory from 'components/TransactionHistory/TransactionHistory';
+// import FriendListItem from 'components/FriendList/FriendListItem';
 
 import friend from '../friends.json';
 import user from '../user.json';
@@ -22,6 +23,12 @@ function App() {
       <Statistics title="Upload stats" stats={statisticalData} />
       <FriendList friends={friend} />
       <TransactionHistory transactions={transactions} />
+      {/* <FriendListItem
+        key={friend.id}
+        avatar={friend.avatar}
+        name={friend.name}
+        isOnline={friend.isOnline}
+      /> */}
     </Container>
   );
 }
